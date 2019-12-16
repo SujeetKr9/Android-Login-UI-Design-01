@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#01a2fd"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/yellow_circle">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/sky_blue_circle">
+
+    </ImageView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:src="@drawable/work"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/montserratmedium"
+                android:text="Sign In"
+                android:textColor="#ffde5d"
+                android:textSize="45dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/montserratmedium"
+                android:text="With your credentials"
+                android:textColor="#4a4a4a"
+                android:textSize="20dp"
+
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_style"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/id"
+                    android:tint="#ffde5d"></ImageView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:fontFamily="@font/montserratmedium"
+                    android:hint="Email Id"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                    ></EditText>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_style"
+                android:clickable="true"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/pass"
+                    android:tint="#ffde5d"></ImageView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:ems="10"
+                    android:fontFamily="@font/montserratmedium"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"
+                   ></EditText>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserratlight"
+                android:gravity="end"
+                android:text="Forgot your password?"
+                android:textColor="#4a4a4a"
+                android:textSize="12dp"
+
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/signIN"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/montserratmedium"
+                android:background="@drawable/signin_style"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sign in"
+                android:textColor="#4a4a4a"
+                android:textSize="25dp"></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserratlight"
+                    android:text="Don't have an account?"
+                    android:textColor="#4a4a4a">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserratmedium"
+                    android:text="Sign Up"
+                    android:textColor="#ffde5d"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
